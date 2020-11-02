@@ -1160,7 +1160,7 @@ body {
   -moz-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
   -o-transform: rotate(-90deg);
-  margin-left: 94.2vw;
+  margin-left: 94.3vw;
   margin-top: 15vw;
   background-color: #e8e3db;
   width: 8.85vw;
@@ -4901,13 +4901,9 @@ body {
   border-radius: 0.26vw;
   -webkit-transition: width 500ms;
   transition: width 500ms;
-  -webkit-transition: width 500ms;
 }
 
 .specBrand .btnFlex .buttn .black-button {
-  border: none;
-  height: 3.54vw;
-  width: 12.4vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4922,6 +4918,9 @@ body {
   border-radius: 0.26vw;
   font-weight: 600;
   color: #e8e3db;
+  height: 3.54vw;
+  width: 12.4vw;
+  border: none;
 }
 
 .specBrand .btnFlex .buttn:hover {

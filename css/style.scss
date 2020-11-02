@@ -942,7 +942,7 @@ body {
     -moz-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
     -o-transform: rotate(-90deg);
-    margin-left: 94.2vw;
+    margin-left: 94.3vw;
     margin-top: 15vw;
     background-color: $cream;
     width: 8.85vw;
@@ -4458,12 +4458,8 @@ body {
       border-radius: 0.26vw;
       -webkit-transition: width 500ms;
       transition: width 500ms;
-      -webkit-transition: width 500ms;
       
       .black-button {
-          border: none;
-          height: 3.54vw;
-          width: 12.4vw;
           display:-webkit-flex;
           display: flex;
           justify-content: center;
@@ -4473,6 +4469,9 @@ body {
           border-radius: 0.26vw;
           font-weight: $fontBold;
           color: $cream;
+          height: 3.54vw;
+          width: 12.4vw;
+          border: none;
       }
     }
   
