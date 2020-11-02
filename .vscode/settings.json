@@ -1,4 +1,5 @@
 {
     "liveServer.settings.port": 5502,
-    "liveServer.settings.multiRootWorkspaceName": "soultree"
+    "liveServer.settings.multiRootWorkspaceName": "soultree",
+    "compile-hero.disable-compile-files-on-did-save-code": false
 }

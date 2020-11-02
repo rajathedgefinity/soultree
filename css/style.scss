@@ -744,8 +744,8 @@ body {
       }
 
       p {
-        font-size: 1.04vw;
-        font-weight: $fontBold;
+        font-size: 1.8vw;
+        font-weight: 400;
         color: $black;
       }
     }
@@ -756,7 +756,8 @@ body {
       justify-content: center;
       align-items: center;
       font-size: .94vw;
-      font-weight: $fontThin;
+      font-weight: 600;
+      letter-spacing: .5px;
       color: $white-two;
       height: 2.29vw;
       width: 10.63vw;
