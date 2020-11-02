@@ -931,6 +931,120 @@ body {
   height: 40vw;
   font-family: Titillium Web, sans-serif;
 
+  .getIn-touch {
+    position: fixed;
+    z-index: 1000;
+    color: $black;
+    font-size: .94vw;
+    font-weight: $fontBold;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    margin-left: 94.2vw;
+    margin-top: 15vw;
+    background-color: $cream;
+    width: 8.85vw;
+    height: 2.6vw;
+    border-radius: .4vw .4vw 0 0;
+    display:-webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .git-container {
+    display: none;
+    margin-top: 13vw;
+    margin-left: 72.2vw;      
+    position: fixed;
+    background:#fff;
+    color: #000;
+    height: 32vw;
+    width: 25vw;
+    z-index: 2000;
+    padding: 2vw;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,0.3);
+
+    svg {
+      width: 1.2vw;
+      height: 1.2vw;
+      margin-left: 20vw;
+      cursor: pointer;
+    }
+
+    svg:hover {
+      color: #9b8e8e;
+    }
+
+    p {
+      font-size: 2.1vw;
+      font-weight: $fontBold;
+    }
+
+    form {
+      margin-top: 2vw;
+      padding-bottom: 1vw;
+
+      input {
+        border: none;
+        padding-bottom: .5vw;
+        width: 100%;
+        -webkit-border-bottom: 1px solid $black;
+        border-bottom: 1px solid $black;
+        font-size: $p;
+        font-weight: $fontThin;
+        margin-bottom: 2.2vw;
+        outline:none;
+      }
+
+      .buttn {
+        height: 3.54vw;
+        width: 12.4vw;
+        background-color: $black;
+        border-radius: 0.26vw;
+        transition: width 500ms;
+        -webkit-transition: width 500ms;
+        // margin-left: 57.6vw;
+        
+        .black-button {
+            border: none;
+            height: 3.54vw;
+            width: 12.4vw;
+            display:-webkit-flex;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 0.9vw;
+            letter-spacing: 3.44px;
+            border-radius: 0.26vw;
+            font-weight: $fontBold;
+            color: $white-two;
+        }
+      }
+    
+      .buttn:hover {
+        height: 3.54vw;
+        width: 0;
+    
+        .black-button {
+            color: $black;
+        }
+    
+        .black-button::after {
+            content: '\f105';
+            font-family: fontAwesome;
+            font-size: .9vw;
+            font-weight: $fontThin;
+            padding-left: .6vw;
+            color: $black;
+        }
+      }
+    }
+  }
+
   .overlay-content {
     display:-webkit-flex;
     display: flex;
@@ -962,126 +1076,126 @@ body {
       font-weight: $fontThin;
       color: $black;
     }
-
-    .getIn-touch {
-      position: fixed;
-      z-index: 1000;
-      color: $black;
-      font-size: .94vw;
-      font-weight: $fontBold;
-      transform: rotate(-90deg);
-      -webkit-transform: rotate(-90deg);
-      -moz-transform: rotate(-90deg);
-      -ms-transform: rotate(-90deg);
-      -o-transform: rotate(-90deg);
-      margin-left: 97vw;
-      margin-top: 15vw;
-      background-color: $cream;
-      width: 8.85vw;
-      height: 2.6vw;
-      border-radius: .4vw .4vw 0 0;
-      display:-webkit-flex;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      cursor: pointer;
-    }
-
-    .git-container {
-      display: none;
-      margin-top: 13vw;
-      margin-left: 69.5vw;      
-      position: fixed;
-      background:#fff;
-      color: #000;
-      height: 32vw;
-      width: 25vw;
-      z-index: 2000;
-      padding: 2vw;
-      box-shadow: 0 2px 10px 0 rgba(0,0,0,0.3);
-
-      svg {
-        width: 1.2vw;
-        height: 1.2vw;
-        margin-left: 20vw;
-        cursor: pointer;
-      }
-
-      svg:hover {
-        color: #9b8e8e;
-      }
-
-      p {
-        font-size: 2.1vw;
-        font-weight: $fontBold;
-      }
-
-      form {
-        padding-bottom: 1vw;
-
-        input {
-          border: none;
-          padding-bottom: .5vw;
-          width: 100%;
-          -webkit-border-bottom: 1px solid $black;
-          border-bottom: 1px solid $black;
-          font-size: $p;
-          font-weight: $fontThin;
-          margin-bottom: 2.2vw;
-          outline:none;
-        }
-
-        .buttn {
-          height: 3.54vw;
-          width: 12.4vw;
-          background-color: $black;
-          border-radius: 0.26vw;
-          transition: width 500ms;
-          -webkit-transition: width 500ms;
-          // margin-left: 57.6vw;
-          
-          .black-button {
-              border: none;
-              height: 3.54vw;
-              width: 12.4vw;
-              display:-webkit-flex;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              font-size: 0.9vw;
-              letter-spacing: 3.44px;
-              border-radius: 0.26vw;
-              font-weight: $fontBold;
-              color: $white-two;
-          }
-        }
-      
-        .buttn:hover {
-          height: 3.54vw;
-          width: 0;
-      
-          .black-button {
-              color: $black;
-          }
-      
-          .black-button::after {
-              content: '\f105';
-              font-family: fontAwesome;
-              font-size: .9vw;
-              font-weight: $fontThin;
-              padding-left: .6vw;
-              color: $black;
-          }
-        }
-      }
-    }
   }
 }
 
                                                         @media only screen and (max-width:768px) {
                                                           .landing-container {
                                                             height: 177vw;
-                                                            padding-bottom: 4vw;;
+                                                            padding-bottom: 4vw;
+
+                                                            .getIn-touch {
+                                                              position: fixed;
+                                                              z-index: 1000;
+                                                              color: $black;
+                                                              font-size: 2.5vw;
+                                                              font-weight: $fontBold;
+                                                              transform: rotate(-90deg);
+                                                              -webkit-transform: rotate(-90deg);
+                                                              -moz-transform: rotate(-90deg);
+                                                              -ms-transform: rotate(-90deg);
+                                                              -o-transform: rotate(-90deg);
+                                                              margin-left: 85.5vw;
+                                                              margin-top: 35vw;
+                                                              background-color: $cream;
+                                                              width: 23vw;
+                                                              height: 6vw;
+                                                              border-radius: 1vw 1vw 0 0;
+                                                              display:-webkit-flex;
+                                                              display: flex;
+                                                              justify-content: center;
+                                                              align-items: center;
+                                                            }
+
+                                                            .git-container {
+                                                              display: none;
+                                                              margin-top: 30vw;
+                                                              margin-left: 13.5vw;      
+                                                              position: fixed;
+                                                              background:#fff;
+                                                              color: #000;
+                                                              height: 100vw;
+                                                              width: 80vw;
+                                                              z-index: 1000;
+                                                              padding: 3vw;
+                                                              box-shadow: 0 2px 10px 0 rgba(0,0,0,0.3);
+                                                        
+                                                              svg {
+                                                                width: 4.5vw;
+                                                                height: 4.5vw;
+                                                                margin-left: 70vw;
+                                                              }
+                                                        
+                                                              svg:hover {
+                                                                color: #a5a2a2;
+                                                              }
+                                                        
+                                                              p {
+                                                                font-size: 6.76vw;
+                                                                font-weight: $fontBold;
+                                                              }
+                                                        
+                                                              form {
+                                                                margin-top: 8vw;
+                                                                padding-bottom: 1vw;
+                                                        
+                                                                input {
+                                                                  border: none;
+                                                                  padding-bottom: 2.5vw;
+                                                                  width: 100%;
+                                                                  -webkit-border-bottom: 1px solid $black;
+                                                                  border-bottom: 1px solid $black;
+                                                                  font-size: 3.38vw;
+                                                                  font-weight: $fontThin;
+                                                                  margin-bottom: 5vw;
+                                                                  outline:none;
+                                                                }
+                                                        
+                                                                .buttn {
+                                                                  height: 13.77vw;
+                                                                  width: 45vw;
+                                                                  background-color: $black;
+                                                                  border-radius: 1vw;
+                                                                  transition: none;
+                                                                  margin-left: 0vw;
+                                                                  margin-top: 5vw;
+                                                                  
+                                                                  .black-button {
+                                                                      border: none;
+                                                                      height: 13.77vw;
+                                                                      width: 45vw;
+                                                                      display:-webkit-flex;
+                                                                      display: flex;
+                                                                      justify-content: center;
+                                                                      align-items: center;
+                                                                      font-size: 3.38vw;
+                                                                      letter-spacing: 3.44px;
+                                                                      border-radius: 0.26vw;
+                                                                      font-weight: $fontBold;
+                                                                      color: $white-two;
+                                                                  }
+                                                                }
+                                                              
+                                                                .buttn:hover {
+                                                                  height: 13.77vw;
+                                                                  width: 0;
+                                                              
+                                                                  .black-button {
+                                                                      color: $black;
+                                                                  }
+                                                              
+                                                                  .black-button::after {
+                                                                      content: '\f105';
+                                                                      font-family: fontAwesome;
+                                                                      font-size: 4vw;
+                                                                      font-weight: $fontThin;
+                                                                      padding-left: 2vw;
+                                                                      color: $black;
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+
                                                             .overlay-content {
                                                               .soultree-logo {
                                                                 margin-top: 30vw;
@@ -1101,117 +1215,6 @@ body {
                                                                 margin-top: 53vw;
                                                                 line-height: 1.5;
                                                                 font-size: 3.38vw;
-                                                              }
-                                                          
-                                                              .getIn-touch {
-                                                                position: fixed;
-                                                                z-index: 1000;
-                                                                color: $black;
-                                                                font-size: 2.5vw;
-                                                                font-weight: $fontBold;
-                                                                transform: rotate(-90deg);
-                                                                -webkit-transform: rotate(-90deg);
-                                                                -moz-transform: rotate(-90deg);
-                                                                -ms-transform: rotate(-90deg);
-                                                                -o-transform: rotate(-90deg);
-                                                                margin-left: 95vw;
-                                                                margin-top: 15vw;
-                                                                background-color: $cream;
-                                                                width: 23vw;
-                                                                height: 6vw;
-                                                                border-radius: 1vw 1vw 0 0;
-                                                                display:-webkit-flex;
-                                                                display: flex;
-                                                                justify-content: center;
-                                                                align-items: center;
-                                                              }
-
-                                                              .git-container {
-                                                                display: none;
-                                                                margin-top: 30vw;
-                                                                margin-left: 0vw;      
-                                                                position: fixed;
-                                                                background:#fff;
-                                                                color: #000;
-                                                                height: 100vw;
-                                                                width: 80vw;
-                                                                z-index: 1000;
-                                                                padding: 3vw;
-                                                                box-shadow: 0 2px 10px 0 rgba(0,0,0,0.3);
-                                                          
-                                                                svg {
-                                                                  width: 4.5vw;
-                                                                  height: 4.5vw;
-                                                                  margin-left: 70vw;
-                                                                }
-                                                          
-                                                                svg:hover {
-                                                                  color: #a5a2a2;
-                                                                }
-                                                          
-                                                                p {
-                                                                  font-size: 6.76vw;
-                                                                  font-weight: $fontBold;
-                                                                }
-                                                          
-                                                                form {
-                                                                  padding-bottom: 1vw;
-                                                          
-                                                                  input {
-                                                                    border: none;
-                                                                    padding-bottom: 2.5vw;
-                                                                    width: 100%;
-                                                                    -webkit-border-bottom: 1px solid $black;
-                                                                    border-bottom: 1px solid $black;
-                                                                    font-size: 3.38vw;
-                                                                    font-weight: $fontThin;
-                                                                    margin-bottom: 5vw;
-                                                                    outline:none;
-                                                                  }
-                                                          
-                                                                  .buttn {
-                                                                    height: 13.77vw;
-                                                                    width: 45vw;
-                                                                    background-color: $black;
-                                                                    border-radius: 1vw;
-                                                                    transition: none;
-                                                                    margin-left: 0vw;
-                                                                    margin-top: 5vw;
-                                                                    
-                                                                    .black-button {
-                                                                        border: none;
-                                                                        height: 13.77vw;
-                                                                        width: 45vw;
-                                                                        display:-webkit-flex;
-                                                                        display: flex;
-                                                                        justify-content: center;
-                                                                        align-items: center;
-                                                                        font-size: 3.38vw;
-                                                                        letter-spacing: 3.44px;
-                                                                        border-radius: 0.26vw;
-                                                                        font-weight: $fontBold;
-                                                                        color: $white-two;
-                                                                    }
-                                                                  }
-                                                                
-                                                                  .buttn:hover {
-                                                                    height: 13.77vw;
-                                                                    width: 0;
-                                                                
-                                                                    .black-button {
-                                                                        color: $black;
-                                                                    }
-                                                                
-                                                                    .black-button::after {
-                                                                        content: '\f105';
-                                                                        font-family: fontAwesome;
-                                                                        font-size: 4vw;
-                                                                        font-weight: $fontThin;
-                                                                        padding-left: 2vw;
-                                                                        color: $black;
-                                                                    }
-                                                                  }
-                                                                }
                                                               }
                                                             }
                                                           }

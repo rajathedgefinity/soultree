@@ -210,6 +210,26 @@
     <!-- #################################################################################### -->
     <div class="landing-container">
 
+        <div class="getIn-touch" onclick="getInTouch()">
+            GET IN TOUCH
+        </div>
+
+        <div class="git-container animate__animated" id="getInTouchId">
+            <svg viewBox="0 0 32 32" onclick="getInTouch()">
+                <polygon points="28.71 4.71 27.29 3.29 16 14.59 4.71 3.29 3.29 4.71 14.59 16 3.29 27.29 4.71 28.71 16 17.41 27.29 28.71 28.71 27.29 17.41 16 28.71 4.71"></polygon>
+            </svg>
+            <p>Get in touch</p>
+            <form action="">
+                <input class="flex-input" type="text" placeholder="Name" maxlength="20">
+                <input class="flex-input" type="text" placeholder="Phone Number*" pattern="[0-9]{10}">
+                <input type="email" name="email" placeholder="Email ID">
+                <input type="text" placeholder="What would you like to discuss?" maxlength="20">
+                <div class="buttn">
+                    <a class="black-button" type="submit">SUBMIT</a>
+                </div>
+            </form>
+        </div>
+
         <div class="overlay-content">
             <div class="soultree-logo">
                 <img src="images/Soul-tree_G.png" alt="">
@@ -218,39 +238,21 @@
                 Fully automated futuristic & intelligent luxury 1, 2 and 3 BHK apartments with a multitude of amenities located
                 amidst green cover at Sompura Gate, Sarjapur Road
             </p>
-            <div class="getIn-touch" onclick="getInTouch()">
-                GET IN TOUCH
-            </div>
-            <div class="git-container animate__animated" id="getInTouchId">
-                <svg viewBox="0 0 32 32" onclick="getInTouch()">
-                    <polygon points="28.71 4.71 27.29 3.29 16 14.59 4.71 3.29 3.29 4.71 14.59 16 3.29 27.29 4.71 28.71 16 17.41 27.29 28.71 28.71 27.29 17.41 16 28.71 4.71"></polygon>
-                </svg>
-                <p>Get in touch</p>
-                <form action="">
-                    <input class="flex-input" type="text" placeholder="Name" maxlength="20">
-                    <input class="flex-input" type="text" placeholder="Phone Number*" pattern="[0-9]{10}">
-                    <input type="email" name="email" placeholder="Email ID">
-                    <input type="text" placeholder="What would you like to discuss?" maxlength="20">
-                    <div class="buttn">
-                        <a class="black-button" type="submit">SUBMIT</a>
-                    </div>
-                </form>
-            </div>
-
-            <script>
-                function getInTouch() {
-                    var touch = document.getElementById('getInTouchId');
-                    if (touch.style.display === 'none') {
-                        touch.style.display = 'block';
-                        touch.style.transition = '1s';
-                    } else {
-                        touch.style.display = 'none';
-                        touch.style.transition = '1s';
-                    }
-                }
-            </script>
         </div>
     </div>
+
+    <script>
+        function getInTouch() {
+            var touch = document.getElementById('getInTouchId');
+            if (touch.style.display === 'none') {
+                touch.style.display = 'block';
+                touch.style.transition = '1s';
+            } else {
+                touch.style.display = 'none';
+                touch.style.transition = '1s';
+            }
+        }
+    </script>
 
     <!-- #################################################################################### -->
         <div class="main-section"></div>
@@ -408,7 +410,7 @@
                     <p class="spec-details">3 Acres</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="350">
-                    <p class="specs">BHK Type</p>
+                    <p class="specs">BHK</p>
                     <p class="spec-details">1, 2 & 3</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="400">
@@ -433,7 +435,7 @@
                     <p class="spec-details">3 Acres</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="400">
-                    <p class="specs">BHK Type</p>
+                    <p class="specs">BHK</p>
                     <p class="spec-details">1, 2 & 3</p>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="500">
@@ -471,7 +473,7 @@
                 <div style="display:flex">
                     <div class="selection">
                         <div class="type-selection">
-                            <p data-aos="fade-up" data-aos-delay="650">Type</p>
+                            <p data-aos="fade-up" data-aos-delay="650">BHK</p>
                             <div class="click-btn" id="click-btn" data-aos="fade-up" data-aos-delay="700">
                                 <button class="click-btn-1">1</button>
                                 <button class="click-btn-1">2</button>
@@ -701,12 +703,11 @@
                 </div>
             </div>
 
-
             <div class="planView tabcontent" id="nirvana">
                 <div style="display:flex">
                     <div class="selection">
                         <div class="type-selection">
-                            <p>Type</p>
+                            <p>BHK</p>
                             <div class="click-btn" id="click-btn">
                                 <button class="click-btn-1">1</button>
                                 <button class="click-btn-1">2</button>

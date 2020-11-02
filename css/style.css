@@ -1149,6 +1149,130 @@ body {
   font-family: Titillium Web, sans-serif;
 }
 
+.landing-container .getIn-touch {
+  position: fixed;
+  z-index: 1000;
+  color: #000000;
+  font-size: .94vw;
+  font-weight: 600;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  margin-left: 94.2vw;
+  margin-top: 15vw;
+  background-color: #e8e3db;
+  width: 8.85vw;
+  height: 2.6vw;
+  border-radius: .4vw .4vw 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.landing-container .git-container {
+  display: none;
+  margin-top: 13vw;
+  margin-left: 72.2vw;
+  position: fixed;
+  background: #fff;
+  color: #000;
+  height: 32vw;
+  width: 25vw;
+  z-index: 2000;
+  padding: 2vw;
+  -webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.landing-container .git-container svg {
+  width: 1.2vw;
+  height: 1.2vw;
+  margin-left: 20vw;
+  cursor: pointer;
+}
+
+.landing-container .git-container svg:hover {
+  color: #9b8e8e;
+}
+
+.landing-container .git-container p {
+  font-size: 2.1vw;
+  font-weight: 600;
+}
+
+.landing-container .git-container form {
+  margin-top: 2vw;
+  padding-bottom: 1vw;
+}
+
+.landing-container .git-container form input {
+  border: none;
+  padding-bottom: .5vw;
+  width: 100%;
+  -webkit-border-bottom: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  font-size: 1.04vw;
+  font-weight: 300;
+  margin-bottom: 2.2vw;
+  outline: none;
+}
+
+.landing-container .git-container form .buttn {
+  height: 3.54vw;
+  width: 12.4vw;
+  background-color: #000000;
+  border-radius: 0.26vw;
+  transition: width 500ms;
+  -webkit-transition: width 500ms;
+}
+
+.landing-container .git-container form .buttn .black-button {
+  border: none;
+  height: 3.54vw;
+  width: 12.4vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 0.9vw;
+  letter-spacing: 3.44px;
+  border-radius: 0.26vw;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.landing-container .git-container form .buttn:hover {
+  height: 3.54vw;
+  width: 0;
+}
+
+.landing-container .git-container form .buttn:hover .black-button {
+  color: #000000;
+}
+
+.landing-container .git-container form .buttn:hover .black-button::after {
+  content: '\f105';
+  font-family: fontAwesome;
+  font-size: .9vw;
+  font-weight: 300;
+  padding-left: .6vw;
+  color: #000000;
+}
+
 .landing-container .overlay-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1189,153 +1313,12 @@ body {
   color: #000000;
 }
 
-.landing-container .overlay-content .getIn-touch {
-  position: fixed;
-  z-index: 1000;
-  color: #000000;
-  font-size: .94vw;
-  font-weight: 600;
-  transform: rotate(-90deg);
-  -webkit-transform: rotate(-90deg);
-  -moz-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  -o-transform: rotate(-90deg);
-  margin-left: 97vw;
-  margin-top: 15vw;
-  background-color: #e8e3db;
-  width: 8.85vw;
-  height: 2.6vw;
-  border-radius: .4vw .4vw 0 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  cursor: pointer;
-}
-
-.landing-container .overlay-content .git-container {
-  display: none;
-  margin-top: 13vw;
-  margin-left: 69.5vw;
-  position: fixed;
-  background: #fff;
-  color: #000;
-  height: 32vw;
-  width: 25vw;
-  z-index: 2000;
-  padding: 2vw;
-  -webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.3);
-          box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.3);
-}
-
-.landing-container .overlay-content .git-container svg {
-  width: 1.2vw;
-  height: 1.2vw;
-  margin-left: 20vw;
-  cursor: pointer;
-}
-
-.landing-container .overlay-content .git-container svg:hover {
-  color: #9b8e8e;
-}
-
-.landing-container .overlay-content .git-container p {
-  font-size: 2.1vw;
-  font-weight: 600;
-}
-
-.landing-container .overlay-content .git-container form {
-  padding-bottom: 1vw;
-}
-
-.landing-container .overlay-content .git-container form input {
-  border: none;
-  padding-bottom: .5vw;
-  width: 100%;
-  -webkit-border-bottom: 1px solid #000000;
-  border-bottom: 1px solid #000000;
-  font-size: 1.04vw;
-  font-weight: 300;
-  margin-bottom: 2.2vw;
-  outline: none;
-}
-
-.landing-container .overlay-content .git-container form .buttn {
-  height: 3.54vw;
-  width: 12.4vw;
-  background-color: #000000;
-  border-radius: 0.26vw;
-  transition: width 500ms;
-  -webkit-transition: width 500ms;
-}
-
-.landing-container .overlay-content .git-container form .buttn .black-button {
-  border: none;
-  height: 3.54vw;
-  width: 12.4vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-size: 0.9vw;
-  letter-spacing: 3.44px;
-  border-radius: 0.26vw;
-  font-weight: 600;
-  color: #ffffff;
-}
-
-.landing-container .overlay-content .git-container form .buttn:hover {
-  height: 3.54vw;
-  width: 0;
-}
-
-.landing-container .overlay-content .git-container form .buttn:hover .black-button {
-  color: #000000;
-}
-
-.landing-container .overlay-content .git-container form .buttn:hover .black-button::after {
-  content: '\f105';
-  font-family: fontAwesome;
-  font-size: .9vw;
-  font-weight: 300;
-  padding-left: .6vw;
-  color: #000000;
-}
-
 @media only screen and (max-width: 768px) {
   .landing-container {
     height: 177vw;
     padding-bottom: 4vw;
   }
-  .landing-container .overlay-content .soultree-logo {
-    margin-top: 30vw;
-    width: 20vw;
-    -webkit-transform: scale(3.2);
-            transform: scale(3.2);
-    z-index: 10;
-  }
-  .landing-container .overlay-content .soultree-logo img {
-    width: 100%;
-    height: auto;
-  }
-  .landing-container .overlay-content .sub-title {
-    width: 78vw;
-    z-index: 10;
-    margin-top: 53vw;
-    line-height: 1.5;
-    font-size: 3.38vw;
-  }
-  .landing-container .overlay-content .getIn-touch {
+  .landing-container .getIn-touch {
     position: fixed;
     z-index: 1000;
     color: #000000;
@@ -1346,8 +1329,8 @@ body {
     -moz-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
     -o-transform: rotate(-90deg);
-    margin-left: 95vw;
-    margin-top: 15vw;
+    margin-left: 85.5vw;
+    margin-top: 35vw;
     background-color: #e8e3db;
     width: 23vw;
     height: 6vw;
@@ -1362,10 +1345,10 @@ body {
         -ms-flex-align: center;
             align-items: center;
   }
-  .landing-container .overlay-content .git-container {
+  .landing-container .git-container {
     display: none;
     margin-top: 30vw;
-    margin-left: 0vw;
+    margin-left: 13.5vw;
     position: fixed;
     background: #fff;
     color: #000;
@@ -1376,22 +1359,23 @@ body {
     -webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.3);
             box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.3);
   }
-  .landing-container .overlay-content .git-container svg {
+  .landing-container .git-container svg {
     width: 4.5vw;
     height: 4.5vw;
     margin-left: 70vw;
   }
-  .landing-container .overlay-content .git-container svg:hover {
+  .landing-container .git-container svg:hover {
     color: #a5a2a2;
   }
-  .landing-container .overlay-content .git-container p {
+  .landing-container .git-container p {
     font-size: 6.76vw;
     font-weight: 600;
   }
-  .landing-container .overlay-content .git-container form {
+  .landing-container .git-container form {
+    margin-top: 8vw;
     padding-bottom: 1vw;
   }
-  .landing-container .overlay-content .git-container form input {
+  .landing-container .git-container form input {
     border: none;
     padding-bottom: 2.5vw;
     width: 100%;
@@ -1402,7 +1386,7 @@ body {
     margin-bottom: 5vw;
     outline: none;
   }
-  .landing-container .overlay-content .git-container form .buttn {
+  .landing-container .git-container form .buttn {
     height: 13.77vw;
     width: 45vw;
     background-color: #000000;
@@ -1412,7 +1396,7 @@ body {
     margin-left: 0vw;
     margin-top: 5vw;
   }
-  .landing-container .overlay-content .git-container form .buttn .black-button {
+  .landing-container .git-container form .buttn .black-button {
     border: none;
     height: 13.77vw;
     width: 45vw;
@@ -1431,20 +1415,38 @@ body {
     font-weight: 600;
     color: #ffffff;
   }
-  .landing-container .overlay-content .git-container form .buttn:hover {
+  .landing-container .git-container form .buttn:hover {
     height: 13.77vw;
     width: 0;
   }
-  .landing-container .overlay-content .git-container form .buttn:hover .black-button {
+  .landing-container .git-container form .buttn:hover .black-button {
     color: #000000;
   }
-  .landing-container .overlay-content .git-container form .buttn:hover .black-button::after {
+  .landing-container .git-container form .buttn:hover .black-button::after {
     content: '\f105';
     font-family: fontAwesome;
     font-size: 4vw;
     font-weight: 300;
     padding-left: 2vw;
     color: #000000;
+  }
+  .landing-container .overlay-content .soultree-logo {
+    margin-top: 30vw;
+    width: 20vw;
+    -webkit-transform: scale(3.2);
+            transform: scale(3.2);
+    z-index: 10;
+  }
+  .landing-container .overlay-content .soultree-logo img {
+    width: 100%;
+    height: auto;
+  }
+  .landing-container .overlay-content .sub-title {
+    width: 78vw;
+    z-index: 10;
+    margin-top: 53vw;
+    line-height: 1.5;
+    font-size: 3.38vw;
   }
 }
 
