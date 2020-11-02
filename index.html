@@ -1,0 +1,1832 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Spaaces</title>
+
+    <!-- Normalize Style Sheet -->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Fonts: Font Family -->
+    <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+
+    <!-- AOS(Animation On Scroll) -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Font Awesome cdn css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Hamburger Animation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Swiperjs CDN Links -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- GSAP Scroll Magic -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
+    <!-- bootstrap modal -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
+
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+</head>
+
+<body>
+
+    <!-- <div class="lines animate__animated animate__slideOutUp animate__delay-4s"> -->
+        <!-- <p class="animate__animated animate__flipInX animate__delay-1s">SOULTREE</p> -->
+        <!-- <div class="logoEntry animate__animated animate__flipInX animate__delay-2s">
+            <img src="images/Soul-tree_G.png" alt="">
+        </div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div> -->
+      
+
+
+
+    <div class="landing-img content-desktop">
+        <img src="images/Banner1.jpg">
+    </div>
+
+    <div class="landing-img content-mobile">
+        <img src="images/bannerMobile.png">
+    </div>
+
+
+    <!-- Navbar Starts [Desktop]-->
+    <div class="nav-bar content-desktop" id="navbar">
+        <div class="logo-container">
+            <div class="logo">
+                <div class="fillet-div">
+                    <a href="#"><img src="images/logo/logo.jpg" srcset="images/logo/logo@2x.jpg 2x, images/logo/logo@3x.jpg 3x"></a>
+                </div>
+            </div>
+        </div>
+        <div class="social-icons">
+            <ul>
+                <li><a href="#" class="animate__animated animate__pulse"><i class="fa fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-in"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            </ul>
+        </div>
+
+        <!-- <div class="box" id="myHam">
+            <div class="btn11 not-active">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <nav class="top-nav">y
+            <ul class="nav-list">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="#explore-soultree" class="nav-link">Explore Soultree</a></li>
+                <li><a href="#master-plan" class="nav-link">Master Plan</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#amenities" class="nav-link">Amenities</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav> -->
+    </div>
+    <!-- Navbar Ends [Desktop]-->
+
+    <!-- Navbar Starts [Mobile]-->
+    <div class="nav-bar content-mobile" id="navbarM">
+        <div class="logo-container">
+            <div class="logo">
+                <div class="fillet-div">
+                    <a href="#"><img src="images/logo/logo.jpg" srcset="images/logo/logo@2x.jpg 2x, images/logo/logo@3x.jpg 3x"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" id="myHam">
+            <div class="btn11 not-active">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <nav class="top-nav">
+            <ul class="nav-list">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="#explore-soultree" class="nav-link">Explore Soultree</a></li>
+                <li><a href="#master-plan" class="nav-link">Master Plan</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#amenities" class="nav-link">Amenities</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- Navbar Ends [Mobile]-->
+
+    <div class="menu-pages content-desktop" id="navbar2">
+        <div>
+            <a href="#explore-soultree" id="Exp-explore" class="tablinks-menu" onclick="menuFunc(event, 'explore-soultree')">Explore Soultree</a>
+            <a href="#master-plan" id="Mplan" class="tablinks-menu" onclick="menuFunc(event, 'master-plan')">Master Plan</a>
+            <a href="#gallery" id="Gall-gallery" class="tablinks-menu" onclick="menuFunc(event, 'gallery')">Gallery</a>
+            <a href="#amenities" id="Amne" class="tablinks-menu" onclick="menuFunc(event, 'amenities')">Amenities</a>
+            <a href="#contact" id="Cont" class="tablinks-menu" onclick="menuFunc(event, 'contact')">Contact</a>
+        </div>
+        <div class="brochure">
+            <div class="call">
+                <i class="fa fa-phone"></i>
+            </div>
+            <div class="num" style="width: 11vw; color: black; font-family: Titillium Web, sans-serif;">
+                <a href="" style="color: black; font-size: 1.04vw; font-weight: 600;">+91 9008 288 288</a>
+            </div>
+            <div class="dropbtn" onclick="dropdown()">Download Brochure</div>
+        </div>
+    </div>
+
+    <div class="menu-pages content-mobile" id="navbar2M">
+        <div class="brochure">
+            <div class="call">
+                <i class="fa fa-phone"></i>
+            </div>
+            <div id="numM" style="width: 25vw; margin-left: -11vw; font-family: Titillium Web, sans-serif;">
+                <a href="" style="color: black; font-size: 3vw; font-weight: 600;">+91 9008 288 288</a>
+            </div>
+            <div class="dropbtn" onclick="dropdownM()">Download Brochure</div>
+        </div>
+    </div>
+
+    <div class="dropdown content-desktop">
+        <div class="dropdown-content" id="dropdown-content">
+          <p onclick="document.getElementById('dropdown-content').style.display='none'">Serenity</p>
+          <p onclick="document.getElementById('dropdown-content').style.display='none'">Bliss</p>
+          <p onclick="document.getElementById('dropdown-content').style.display='none'">Nirvana</p>
+        </div>
+    </div>
+    
+    <div class="dropdown content-mobile">
+        <div class="dropdown-content" id="dropdown-contentM">
+          <p onclick="document.getElementById('dropdown-contentM').style.display='none'">Serenity</p>
+          <p onclick="document.getElementById('dropdown-contentM').style.display='none'">Bliss</p>
+          <p onclick="document.getElementById('dropdown-contentM').style.display='none'">Nirvana</p>
+        </div>
+    </div>
+
+    <script>
+        function dropdown() {
+            var a = document.getElementById('dropdown-content');
+            if (a.style.display === 'none') {
+                a.style.display = 'block';
+            } else {
+                a.style.display ='none';
+            }
+        }
+
+        function dropdownM() {
+            var a = document.getElementById('dropdown-contentM');
+            if (a.style.display === 'none') {
+                a.style.display = 'block';
+            } else {
+                a.style.display ='none';
+            }
+        }
+    </script>
+
+    <!-- #################################################################################### -->
+    <div class="landing-container">
+
+        <div class="overlay-content">
+            <div class="soultree-logo">
+                <img src="images/Soul-tree_G.png" alt="">
+            </div>
+            <p class="sub-title">
+                Fully automated futuristic & intelligent luxury 1, 2 and 3 BHK apartments with a multitude of amenities located
+                amidst green cover at Sompura Gate, Sarjapur Road
+            </p>
+            <div class="getIn-touch" onclick="getInTouch()">
+                GET IN TOUCH
+            </div>
+            <div class="git-container animate__animated" id="getInTouchId">
+                <svg viewBox="0 0 32 32" onclick="getInTouch()">
+                    <polygon points="28.71 4.71 27.29 3.29 16 14.59 4.71 3.29 3.29 4.71 14.59 16 3.29 27.29 4.71 28.71 16 17.41 27.29 28.71 28.71 27.29 17.41 16 28.71 4.71"></polygon>
+                </svg>
+                <p>Get in touch</p>
+                <form action="">
+                    <input class="flex-input" type="text" placeholder="Name" maxlength="20">
+                    <input class="flex-input" type="text" placeholder="Phone Number*" pattern="[0-9]{10}">
+                    <input type="email" name="email" placeholder="Email ID">
+                    <input type="text" placeholder="What would you like to discuss?" maxlength="20">
+                    <div class="buttn">
+                        <a class="black-button" type="submit">SUBMIT</a>
+                    </div>
+                </form>
+            </div>
+
+            <script>
+                function getInTouch() {
+                    var touch = document.getElementById('getInTouchId');
+                    if (touch.style.display === 'none') {
+                        touch.style.display = 'block';
+                        touch.style.transition = '1s';
+                    } else {
+                        touch.style.display = 'none';
+                        touch.style.transition = '1s';
+                    }
+                }
+            </script>
+        </div>
+    </div>
+
+    <!-- #################################################################################### -->
+        <div class="main-section"></div>
+        <p class="main-title" data-aos="fade-up" data-aos-delay="200">
+            For the generation of today, <br>
+            tomorrow & future.
+        </p>
+        <p class="main-subtitle" data-aos="fade-up" data-aos-delay="300">
+            Soul Tree is made for the free-thinking generation of today. A generation defined by their ideas rather than individualities. For whom home is more than just space and open spaces serve as their platform to meet, greet, mingle, enjoy, grow & so much more. Our tribute to the generation of today, tomorrow & future.
+        </p>
+
+        <div class="carousel-1">
+            <div class="color-splash-1">
+                <img src="images/Color-Splash-1.png" alt="">
+            </div>
+
+            <div class="carousel-flex" data-aos="fade-up" data-aos-delay="300">
+                <div class="carousel">
+                    <ul class="carousel__list">
+                        <img src="images/section2/Relax & Rejuvenate.jpg" alt="" class="carousel__item" data-pos="-2"  id="-2" onclick="fn(id)">
+                        <img src="images/section2/Unite & Celebrate.jpg" alt="" class="carousel__item" data-pos="-1" id="-1" onclick="fn(id)">
+                        <img src="images/section2/Meet, Greet & Talk.jpg" alt="" class="carousel__item" data-pos="0" id="0" onclick="fn(id)">
+                        <img src="images/section2/Mingle, Mix & Laugh.jpg" alt="" class="carousel__item" data-pos="1" id="1" onclick="fn(id)">
+                        <img src="images/section2/Play & Enjoy.jpg" alt="" class="carousel__item" data-pos="2" id="2" onclick="fn(id)">
+                    </ul>
+                </div>
+
+                <div class="ellipse"  onclick="fn(0)">
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </div>
+
+                <div class="carousel-descrip_t " id="car-2" style='display:block' >
+                    <p class="carousel-title">
+                        Meet, Greet & Talk1
+                    </p>
+                    <p class="carousel-details">
+                        From lobbies of the living areas, various seating clusters in & around the project to the corridor spaces, there are various thoughtfully designed ‘pause points’ to incorporate enthusiastic welcomes and lingering goodbyes. Wholesome architectural enhancements for you to meet, greet & talk.
+                    </p>
+                </div>
+
+                <div class="carousel-descrip_t" style="display: none;" id="car-1">
+                    <p class="carousel-title">
+                        Mingle, Mix & Laugh 
+                    </p>
+                    <p class="carousel-details">
+                        Soul Tree is sprinkled with an array of open spaces including dedicated senior citizen seating areas meant to merge the social and the personal with group-friendly and quiet spaces. The green patch between the living areas is created with landscapes – lush greenery interspersed with seating facilities and calming water bodies where you can mingle, mix & laugh. 
+                    </p>
+                </div>
+
+                <div class="carousel-descrip_t" style="display: none;" id="car0">
+                    <p class="carousel-title">
+                        Play & Enjoy 
+                    </p>
+                    <p class="carousel-details">
+                        With multiple kids-play areas scattered around the project & specifically designed toddlers play areas accompanied by parents seating benches, we aim to cater to the demands of each & every age group. There is a Basket Ball Court, motorised Cricket Nets, Skating & Biking Ring and so much more for you to play & enjoy to the fullest.  
+                    </p>
+                </div>
+
+                <div class="carousel-descrip_t" style="display: none;" id="car1">
+                    <p class="carousel-title">
+                        Relax & Rejuvenate 
+                    </p>
+                    <p class="carousel-details">
+                        It’s a space that is designed to serve today’s global lifestyles and new-age living. Reflexology Barefoot Paths with Pebbles are meant to give you a relaxing break from your hectic lifestyle while the elevated east-facing sunrise court, Yoga zone, various green parks including a butterfly garden, walking path, multiple outdoor gyms & around the project jogging path will help you to relax & rejuvenate. 
+                    </p>
+                </div>
+
+                <div class="carousel-descrip_t" style="display: none;" id="car2">
+                    <p class="carousel-title">
+                        Unite & Celebrate 
+                    </p>
+                    <p class="carousel-details">
+                        Soul Tree lends its name from a rare auspicious banyan tree centring the Amphi Theatre, a uniquely designed space to encourage the celebrations of every nature. Adding to an already impressive Clubhouse packed with world-class facilities & the project dedicated to giving you a cause to unite & celebrate the life every day.  
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <p class="carousel-2-title" id="explore-soultree" data-aos="fade-up" data-aos-delay="200">Explore Soultree</p>
+        
+        <div class="carousel-2">
+
+            <div class="carousel-flex" data-aos="fade-up" data-aos-delay="300">
+                <div class="carousel" id="g1">
+                    <ul class="carousel_list" id="g1__list11">
+                        <img src="images/section3/Feel the light.jpg" alt="" class="carousel_item1" data-pos="-2" id="-2_a" id="-2" onclick="fn22(id)">
+                        <img src="images/section3/Feel the design.png" alt="" class="carousel_item1" data-pos="-1" id="-1_a" onclick="fn22(id)">
+                        <img src="images/section3/Feel good.png" alt="" class="carousel_item1" data-pos="0" id="0_a" onclick="fn22(id)">
+                        <img src="images/section3/Feel Smart.jpg" alt="" class="carousel_item1" data-pos="1" id="1_a" onclick="fn22(id)">
+                        <img src="images/section3/Feel green.png" alt="" class="carousel_item1" data-pos="2" id="2_a" onclick="fn22(id)">
+                    </ul>
+                </div>
+
+                <div class="ellipse"  onclick="fn_arrow(0)">
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </div>
+
+                <div class="carousel-descrip_t1 " id="car-2_a" style='display:block' >
+                    <p class="carousel-title">
+                        Feel the light
+                    </p>
+                    <p class="carousel-details">
+                        Our rooms, terraces & balconies are designed to take advantage of the Bangalore sun and bathe in natural light. The homes are compact and smart with good views, light and fresh air. All you need for a productive day and a good night’s sleep.  
+                    </p>
+                </div>
+
+                <div class="carousel-descrip_t1" style="display: none;" id="car-1_a">
+                    <p class="carousel-title">
+                        Feel the design 
+                    </p>
+                    <p class="carousel-details">
+                        A work of art inside and out. At Modern Spaaces, the passion for design transcends architecture and is reflected in the utmost care in the selection of equipment and materials. Form, function and robustness, in perfect harmony. 
+                    </p>
+                </div>
+
+                <div class="carousel-descrip_t1" style="display: none;" id="car0_a">
+                    <p class="carousel-title">
+                        Feel good 
+                    </p>
+                    <p class="carousel-details">
+                        At Soul Tree, quality of life is the absolute priority. Our clubhouse attests to that. The 4000 sq ft clubhouse has a half indoor, partially covered swimming pool for adults and toddlers. It is designed to keep all your needs in mind from a host of indoor games, Badminton & Squash Court to a fully-equipped gym, a Library, Lego Room, Market Retail, ATM, Pharmacy & Laundry. 
+                    </p>
+                </div>
+
+                <div class="carousel-descrip_t1" style="display: none;" id="car1_a">
+                    <p class="carousel-title">
+                        Feel Smart 
+                    </p>
+                    <p class="carousel-details">
+                        Our homes come with fully automated home automation facility. Now control your entire home with just a mobile app. Unlock the future in our smart homes and experience customized, luxury living. 
+                    </p>
+                </div>
+
+                <div class="carousel-descrip_t1" style="display: none;" id="car2_a">
+                    <p class="carousel-title">
+                        Feel green 
+                    </p>
+                    <p class="carousel-details">
+                        We believe in fair & efficient sustainable practices. Being aware of the environment we live in is a decision we’ve made in the design and functionality of the space. We have taken measures to save water, energy, and hopefully the planet, in the long run. 
+                    </p>
+                </div>
+            </div>
+            <div class="color-splash-2">
+                <img src="images/Color-Splash-2.png" alt="">
+            </div>
+        </div>
+        <!-- <div class="carousel-2">
+
+            <div class="carousel-flex" data-aos="fade-up" data-aos-delay="300">
+
+                <div class="carousel-descrip_t1 " id="car-2_a" style='display:block' >
+                    <p class="carousel-title">
+                        Feel the light
+                    </p>
+                    <p class="carousel-details">
+                        Our rooms, terraces & balconies are designed to take advantage of the Bangalore sun and bathe in natural light. The homes are compact and smart with good views, light and fresh air. All you need for a productive day and a good night’s sleep.  
+                    </p>
+                </div>
+
+                <div class="carousel-descrip_t1" style="display: none;" id="car-1_a">
+                    <p class="carousel-title">
+                        Feel the design 
+                    </p>
+                    <p class="carousel-details">
+                        A work of art inside and out. At Modern Spaaces, the passion for design transcends architecture and is reflected in the utmost care in the selection of equipment and materials. Form, function and robustness, in perfect harmony. 
+                    </p>
+                </div>
+
+                <div class="carousel-descrip_t1" style="display: none;" id="car0_a">
+                    <p class="carousel-title">
+                        Feel good 
+                    </p>
+                    <p class="carousel-details">
+                        At Soul Tree, quality of life is the absolute priority. Our clubhouse attests to that. The 4000 sq ft clubhouse has a half indoor, partially covered swimming pool for adults and toddlers. It is designed to keep all your needs in mind from a host of indoor games, Badminton & Squash Court to a fully-equipped gym, a Library, Lego Room, Market Retail, ATM, Pharmacy & Laundry. 
+                    </p>
+                </div>
+
+                <div class="carousel-descrip_t1" style="display: none;" id="car1_a">
+                    <p class="carousel-title">
+                        Feel Smart 
+                    </p>
+                    <p class="carousel-details">
+                        Our homes come with fully automated home automation facility. Now control your entire home with just a mobile app. Unlock the future in our smart homes and experience customized, luxury living. 
+                    </p>
+                </div>
+
+                <div class="carousel-descrip_t1" style="display: none;" id="car2_a">
+                    <p class="carousel-title">
+                        Feel green 
+                    </p>
+                    <p class="carousel-details">
+                        We believe in fair & efficient sustainable practices. Being aware of the environment we live in is a decision we’ve made in the design and functionality of the space. We have taken measures to save water, energy, and hopefully the planet, in the long run. 
+                    </p>
+                </div>
+
+                <div class="ellipse"  onclick="fn_arrow(0)">
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </div>
+
+                <div class="carousel" id="g1">
+                    <ul class="carousel_list" id="g1__list11">
+                        <img src="images/section3/Feel the light.jpg" alt="" class="carousel_item1" data-pos="-2" id="-2_a" id="-2" onclick="fn22(id)">
+                        <img src="images/section3/Feel the design.png" alt="" class="carousel_item1" data-pos="-1" id="-1_a" onclick="fn22(id)">
+                        <img src="images/section3/Feel good.png" alt="" class="carousel_item1" data-pos="0" id="0_a" onclick="fn22(id)">
+                        <img src="images/section3/Feel Smart.jpg" alt="" class="carousel_item1" data-pos="1" id="1_a" onclick="fn22(id)">
+                        <img src="images/section3/Feel green.png" alt="" class="carousel_item1" data-pos="2" id="2_a" onclick="fn22(id)">
+                    </ul>
+                </div>
+
+            </div>
+            <div class="color-splash-2">
+                <img src="images/Color-Splash-2.png" alt="">
+            </div>
+        </div> -->
+
+        <div class="master-plan content-desktop" id="master-plan">
+            <div class="master-plan-img" data-aos="fade-up" data-aos-delay="200">
+                <img src="images/MASTER-PLAN.png">
+            </div>
+            <div class="master-plan-descrip">
+                <div class="master-plan-title" data-aos="fade-up" data-aos-delay="200">Master plan</div>
+                <li data-aos="fade-up" data-aos-delay="300">
+                    <p class="specs">Land Area</p>
+                    <p class="spec-details">3 Acres</p>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="350">
+                    <p class="specs">BHK Type</p>
+                    <p class="spec-details">1, 2 & 3</p>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="400">
+                    <p class="specs">Units</p>
+                    <p class="spec-details">538</p>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="450">
+                    <p class="specs">Club House</p>
+                    <p class="spec-details">20,000 sqft</p>
+                </li>
+            </div>
+        </div>
+
+        <div class="master-plan content-mobile" id="master-plan">
+            <div class="master-plan-title" data-aos="fade-up" data-aos-delay="200">Master plan</div>
+            <div class="master-plan-img" data-aos="fade-up" data-aos-delay="300">
+                <img src="images/MASTER-PLAN.png">
+            </div>
+            <div class="master-plan-descrip">
+                <li data-aos="fade-up" data-aos-delay="400">
+                    <p class="specs">Land Area</p>
+                    <p class="spec-details">3 Acres</p>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="400">
+                    <p class="specs">BHK Type</p>
+                    <p class="spec-details">1, 2 & 3</p>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="500">
+                    <p class="specs">Units</p>
+                    <p class="spec-details">538</p>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="500">
+                    <p class="specs">Club House</p>
+                    <p class="spec-details">20,000 sqft</p>
+                </li>
+            </div>
+        </div>
+
+
+
+        <div id="myModal" class="modal">
+            <span class="close" style="opacity: 1;">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+        </div>
+
+
+
+
+
+        <div class="floor-plans">
+            <div class="floor-plans-title" data-aos="fade-up" data-aos-delay="200">Floor Plans</div>
+            <div class="plan-specs tab">
+                <div class="spec  active-spec tablinks" id="snty" onclick="serenityFunc(event,'serenity')" data-aos="fade-up" data-aos-delay="300">Serenity</div>
+                <div class="spec tablinks" id="bls" onclick="serenityFunc(event,'bliss')" data-aos="fade-up" data-aos-delay="450">Bliss</div>
+                <div class="spec tablinks" id="nrv" onclick="serenityFunc(event,'nirvana')" data-aos="fade-up" data-aos-delay="600">Nirvana</div>
+            </div>
+
+            <div class="planView tabcontent" id="serenity">
+                <div style="display:flex">
+                    <div class="selection">
+                        <div class="type-selection">
+                            <p data-aos="fade-up" data-aos-delay="650">Type</p>
+                            <div class="click-btn" id="click-btn" data-aos="fade-up" data-aos-delay="700">
+                                <button class="click-btn-1">1</button>
+                                <button class="click-btn-1">2</button>
+                                <button class="click-btn-1 active">3</button>
+                            </div>
+                        </div>
+                
+                        <div class="facing">
+                            <p data-aos="fade-up" data-aos-delay="750">Facing</p>
+                            <div class="box11" data-aos="fade-up" data-aos-delay="800">
+                                <select>
+                                    <option>East</option>
+                                    <option>West</option>
+                                    <option>North</option>
+                                    <option>South</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="building-blocks">
+                            <p data-aos="fade-up" data-aos-delay="850">Block</p>
+                            <div class="box11" data-aos="fade-up" data-aos-delay="900">
+                                <select>
+                                    <option>B</option>
+                                    <option>C</option>
+                                    <option>D</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-containerSerenity" id="serenityCarousel" data-aos="fade-up" data-aos-delay="700">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img id="myImg2" class="myImg" src="images/soultreeFloorPlans/1bhk-West-facing-typical-2.png">
+                                <p>SBA 568 SFT, CA 357 SFT<br>
+                                    Flat No.s  B09, B10, B14</p>
+                            </div>
+                            <div class="swiper-slide" id="slide3">
+                                <img id="myImg3" class="myImg" src="images/soultreeFloorPlans/1bhk-West-facing-typical.png">
+                                <p>SBA 568 SFT, CA 357 SFT<br>
+                                   Flat No.s  B09, B10, B14</p>
+                            </div>
+                            <div class="swiper-slide" id="slide3">
+                                <img id="myImg3" class="myImg" src="images/soultreeFloorPlans/2BHK-East-Facing-Typical-Unit-2.png">
+                                <p>SBA 891 SFT, CA 585 SFT<br>
+                                    Flat No.s  A14 to A25</p>
+                            </div>
+                            <div class="swiper-slide" id="slide3">
+                                <img id="myImg3" class="myImg" src="images/soultreeFloorPlans/2BHK-East-Facing-Typical-Unit.png">
+                                <p>SBA 891 SFT, CA 585 SFT<br>
+                                    Flat No.s  A14 to A25</p>
+                            </div>
+                            <div class="swiper-slide" id="slide3">
+                                <img id="myImg3" class="myImg" src="images/soultreeFloorPlans/2bhk-north-facing corner unit 2.png">
+                                <p>SBA 1145 SFT, CA 726 SFT<br>
+                                    Flat No.s  B01</p>
+                            </div>
+                            <div class="swiper-slide" id="slide3">
+                                <img id="myImg3" class="myImg" src="images/soultreeFloorPlans/2BHK-North-Facing Corner Unit.png">
+                                <p>SBA 1076 SFT, CA 709 SFT<br>
+                                    Flat No.s  A01</p>
+                            </div>
+                            <div class="swiper-slide" id="slide3">
+                                <img id="myImg3" class="myImg" src="images/soultreeFloorPlans/2bhk-north-facing-corner-unit-3.png">
+                                <p>SBA 1076 SFT, CA 709 SFT<br>
+                                    Flat No.s  A01</p>
+                            </div>
+                            <div class="swiper-slide" id="slide3">
+                                <img id="myImg3" class="myImg" src="images/soultreeFloorPlans/2BHK-North-Facing-Typical-Unit.png">
+                                <p>SBA 1145 SFT, CA 726 SFT<br>
+                                    Flat No.s B01</p>
+                            </div>
+                            <div class="swiper-slide" id="slide3">
+                                <img id="myImg3" class="myImg" src="images/soultreeFloorPlans/2bhk-West-facing-typical-2.png">
+                                <p>SBA 915 SFT, CA 626 SFT<br>
+                                    Flat No.s  B02 to B13</p>
+                            </div>
+                            <div class="swiper-slide" id="slide3">
+                                <img id="myImg3" class="myImg" src="images/soultreeFloorPlans/2bhk-West-facing-typical.png">
+                                <p>SBA 915 SFT, CA 626 SFT<br>
+                                    Flat No.s  B02 to B13</p>
+                            </div>
+                            <div class="swiper-slide" id="slide3">
+                                <img id="myImg3" class="myImg" src="images/soultreeFloorPlans/3BHK-East-Facing-corner-Unit-2.png">
+                                <p>SBA 1434 SFT, CA 964 SFT<br>
+                                    Flat No.s  B16</p>
+                            </div>
+                            <div class="swiper-slide" id="slide3">
+                                <img id="myImg3" class="myImg" src="images/soultreeFloorPlans/3BHK-East-Facing-corner-Unit-3.png">
+                                <p>SBA 1434 SFT, CA 964 SFT<br>
+                                    Flat No.s  B16</p>
+                            </div>
+                            <div class="swiper-slide" id="slide3">
+                                <img id="myImg3" class="myImg" src="images/soultreeFloorPlans/3BHK-East-Facing-corner-Unit-5.png">
+                                <p>SBA 1390 SFT, CA 923 SFT<br>
+                                    Flat No.s  A26</p>
+                            </div>
+                            <div class="swiper-slide" id="slide3">
+                                <img id="myImg3" class="myImg" src="images/soultreeFloorPlans/3BHK-East-Facing-corner-Unit.png">
+                                <p>SBA 1390 SFT, CA 923 SFT<br>
+                                    Flat No.s  A26</p>
+                            </div>
+                            <div class="swiper-slide" id="slide3">
+                                <img id="myImg3" class="myImg" src="images/soultreeFloorPlans/3BHK-East-Facing-Typical-Unit-2.png">
+                                <p>SBA 1235 SFT, CA 840 SFT<br>
+                                    Flat No.s  A13</p>
+                            </div>
+                            <div class="swiper-slide" id="slide3">
+                                <img id="myImg3" class="myImg" src="images/soultreeFloorPlans/3BHK-East-Facing-Typical-Unit-3.png">
+                                <p>SBA 1217 SFT, CA 822 SFT<br>
+                                    Flat No.s  B17 to B26</p>
+                            </div>
+                            <div class="swiper-slide" id="slide3">
+                                <img id="myImg3" class="myImg" src="images/soultreeFloorPlans/3BHK-East-Facing-Typical-Unit-4.png">
+                                <p>SBA 1217 SFT, CA 822 SFT<br>
+                                    Flat No.s B17 toB26</p>
+                            </div>
+                            <div class="swiper-slide" id="slide3">
+                                <img id="myImg3" class="myImg" src="images/soultreeFloorPlans/3BHK-East-Facing-Typical-Unit.png">
+                                <p>SBA 1235 SFT, CA 840 SFT<br>
+                                    Flat No.s A13</p>
+                            </div>
+                            <div class="swiper-slide" id="slide3">
+                                <img id="myImg3" class="myImg" src="images/soultreeFloorPlans/3BHK-north-facing-corner unit.png">
+                                <p>SBA 1180 SFT, CA 771 SFT<br>
+                                    Flat No.s B15</p>
+                            </div>
+                            <div class="swiper-slide" id="slide3">
+                                <img id="myImg3" class="myImg" src="images/soultreeFloorPlans/3BHK-north-Facing-corner-Unit-5.png">
+                                <p>SBA 1180 SFT, CA 771 SFT<br>
+                                    Flat No.s B15</p>
+                            </div>
+                            <div class="swiper-slide" id="slide3">
+                                <img id="myImg3" class="myImg" src="images/soultreeFloorPlans/3BHK-North-Facing-corner-Unit.png">
+                                <p>SBA 1459 SFT, CA 946 SFT<br>
+                                    Flat No.s A12</p>
+                            </div>
+                            <div class="swiper-slide" id="slide3">
+                                <img id="myImg3" class="myImg" src="images/soultreeFloorPlans/3BHK-West-Facing-corner-Unit.png">
+                                <p>SBA 1564 SFT, CA 986 SFT<br>
+                                    Flat No.s A11</p>
+                            </div>
+                            <div class="swiper-slide" id="slide3">
+                                <img id="myImg3" class="myImg" src="images/soultreeFloorPlans/3BHK-West-Facing-Typical-Unit-2.png">
+                                <p>SBA 1215 SFT, CA 821 SFT<br>
+                                    Flat No.s A02 to A10</p>
+                            </div>
+                            <div class="swiper-slide" id="slide3">
+                                <img id="myImg3" class="myImg" src="images/soultreeFloorPlans/3BHK-West-Facing-Typical-Unit.png">
+                                <p>SBA 1215 SFT, CA 821 SFT<br>
+                                    Flat No.s A02 to A10</p>
+                            </div>
+                        </div>
+                
+                        <a class="ellipse1" style="z-index: 100;" id="elSerenity">
+                            <i class="fa fa-angle-left" aria-hidden="true"></i>
+                        </a>
+                        <li class="ellipse2" style="z-index: 100;" id="erSerenity">
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </li>
+                    </div>
+                </div>
+            </div>
+
+            <div class="planView tabcontent" id="bliss">
+                <div style="display:flex">
+                    <div class="selection">
+                        <div class="type-selection">
+                            <p>BHK</p>
+                            <div class="click-btn" id="click-btn">
+                                <button class="click-btn-1">1</button>
+                                <button class="click-btn-1">2</button>
+                                <button class="click-btn-1 active">3</button>
+                            </div>
+                        </div>
+                
+                        <div class="facing">
+                            <p>Facing</p>
+                            <div class="box11">
+                                <select>
+                                    <option>East</option>
+                                    <option>West</option>
+                                    <option>North</option>
+                                    <option>South</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="building-blocks">
+                            <p>Block</p>
+                            <div class="box11">
+                                <select>
+                                    <option>B</option>
+                                    <option>C</option>
+                                    <option>D</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-containerBliss" id="blissCarousel">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img id="myImg4" class="myImg4" src="images/floor-plan/floor-plan.jpg"
+                                    srcset="images/floor-plan/floor-plan@2x.jpg 2x,
+                                            images/floor-plan/floor-plan@3x.jpg 3x">
+                                <p>SBA 1345 Sft CA <br>
+                                    945 Sft Flat no’s  A11, A12, A13</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img id="myImg5" class="myImg5" src="images/section2/Meet, Greet & Talk.jpg">
+                                <p>SBA 1345 Sft CA <br>
+                                    945 Sft Flat no’s  A11, A12, A13</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img id="myImg6" class="myImg6" src="images/section2/Mingle, Mix & Laugh.jpg">
+                                <p>SBA 1345 Sft CA <br>
+                                    945 Sft Flat no’s  A11, A12, A13</p>
+                            </div>
+                        </div>
+
+                        <div class="ellipse_1" style="z-index: 100;" id="elBliss">
+                            <i class="fa fa-angle-left" aria-hidden="true"></i>
+                        </div>
+                        <div class="ellipse_2" style="z-index: 100;" id="erBliss">
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="planView tabcontent" id="nirvana">
+                <div style="display:flex">
+                    <div class="selection">
+                        <div class="type-selection">
+                            <p>Type</p>
+                            <div class="click-btn" id="click-btn">
+                                <button class="click-btn-1">1</button>
+                                <button class="click-btn-1">2</button>
+                                <button class="click-btn-1 active">3</button>
+                            </div>
+                        </div>
+                
+                        <div class="facing">
+                            <p>Facing</p>
+                            <div class="box11">
+                                <select>
+                                    <option>East</option>
+                                    <option>West</option>
+                                    <option>North</option>
+                                    <option>South</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="building-blocks">
+                            <p>Block</p>
+                            <div class="box11">
+                                <select>
+                                    <option>B</option>
+                                    <option>C</option>
+                                    <option>D</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-containerNirvana" id="nirvanaCarousel">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img id="myImg7" class="myImg7" src="images/floor-plan/floor-plan.jpg"
+                                    srcset="images/floor-plan/floor-plan@2x.jpg 2x,
+                                            images/floor-plan/floor-plan@3x.jpg 3x">
+                                <p>SBA 1345 Sft CA <br>
+                                    945 Sft Flat no’s  A11, A12, A13</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img id="myImg8" class="myImg8" src="images/section2/Meet, Greet & Talk.jpg">
+                                <p>SBA 1345 Sft CA <br>
+                                    945 Sft Flat no’s  A11, A12, A13</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img id="myImg9" class="myImg9" src="images/section2/Mingle, Mix & Laugh.jpg">
+                                <p>SBA 1345 Sft CA <br>
+                                    945 Sft Flat no’s  A11, A12, A13</p>
+                            </div>
+                        </div>
+                
+                        <div class="ellipse_3" style="z-index: 100;" id="elNirvana">
+                            <i class="fa fa-angle-left" aria-hidden="true"></i>
+                        </div>
+                        <div class="ellipse_4" style="z-index: 100;" id="erNirvana">
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         
+        </div>
+
+    <!-- </div> -->
+
+    <!-- #################################################################################### -->
+    <div class="timeline" style="display: none;">
+        <p class="timeline-title">Project Timeline</p>
+        <div class="progress-timeline">
+            <div class="progress-pie-chart" data-percent="43">
+                <div class="ppc-progress">
+                    <div class="ppc-progress-fill"></div>
+                </div>
+                <div class="ppc-percents">
+                    <div class="pcc-percents-wrapper">
+                    <span>%</span>
+                </div>
+                </div>
+            </div>
+            <div id="lineCont"> 
+                <div id="line" style="border-bottom-style: dashed;"></div>
+                <div id="span">Date Placeholder</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- #################################################################################### -->
+    <div class="amenities" id="amenities">
+        <div class="amenities-title" data-aos="fade-up" data-aos-delay="200">Amenities</div> 
+
+        <div class="carousel-3"data-aos="fade-up" data-aos-delay="300" >
+            <div class="carousel-flex3">
+                <div class="carousel" id="g2_c">
+                    <ul class="carousel_list2" id="g2__list11">
+                        <img src="images/section4/4.png" alt="" class="carousel_item2" data-pos="-2" id="-2_b" onclick="fn_33(id)">
+                        <img src="images/section4/4.png" alt="" class="carousel_item2" data-pos="-1" id="-1_b" onclick="fn_33(id)">
+                        <img src="images/section4/1.png" alt="" class="carousel_item2" data-pos="0" id="0_b" onclick="fn_33(id)">
+                        <img src="images/section4/2.png" alt="" class="carousel_item2" data-pos="1" id="1_b" onclick="fn_33(id)">
+                        <img src="images/section4/3.png" alt="" class="carousel_item2" data-pos="2" id="2_b" onclick="fn_33(id)">
+                    </ul>
+                </div>
+
+                <div class="ellipse3" onclick="fn_arrow1(0)" >
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </div>
+
+                <div class="carousel-descrip_tb " style='display:none' id="car-2_b" >
+                    <p class="carousel-title">
+                        Where Ever You Are, Be There Totally.
+                    </p>
+                        <li class="carousel-details">Billiards</li>
+                        <li class="carousel-details">Gallery/ Sales Area</li>
+                        <li class="carousel-details">Co-Working Space</li>
+                        <li class="carousel-details">Shops</li>
+                        <li class="carousel-details">Senior Citizen Seating Corner</li>
+                        <li class="carousel-details">Chit Chat Corner</li>
+                        <li class="carousel-details">Interactive Staircase</li>
+                        <li class="carousel-details">Party Hall</li>
+                </div>
+
+                <div class="carousel-descrip_tb " style='display:none' id="car-1_b" >
+                    <p class="carousel-title">
+                        Where Ever You Are, Be There Totally.
+                    </p>
+                        <li class="carousel-details">Billiards</li>
+                        <li class="carousel-details">Gallery/ Sales Area</li>
+                        <li class="carousel-details">Co-Working Space</li>
+                        <li class="carousel-details">Shops</li>
+                        <li class="carousel-details">Senior Citizen Seating Corner</li>
+                        <li class="carousel-details">Chit Chat Corner</li>
+                        <li class="carousel-details">Interactive Staircase</li>
+                        <li class="carousel-details">Party Hall</li>
+                </div>
+
+                <div class="carousel-descrip_tb " style='display:block' id="car0_b" >
+                    <p class="carousel-title">
+                        Do Something Today That Your Future Self Will Thank You For
+                    </p>
+                        <li class="carousel-details">Swimming Pool</li>
+                        <li class="carousel-details">Gym</li>
+                        <li class="carousel-details">Badminton Court</li>
+                        <li class="carousel-details">Squash Court</li>
+                        <li class="carousel-details">Table tennis</li>
+                        <li class="carousel-details">Half Basketball Court</li>
+                        <li class="carousel-details">Meditation Corner</li>
+                        <li class="carousel-details">Yoga/Meditation/ Interaction Terraces</li>
+                        <li class="carousel-details">Walking Track</li>
+                        <li class="carousel-details">Reflexology Path</li>
+                </div>
+
+                <div class="carousel-descrip_tb" style="display: none;" id="car1_b">
+                    <p class="carousel-title">
+                        Culture Will Bring You Together, Nature Will Let You Thrive
+                    </p>
+                        <li class="carousel-details">Healing Garden at the Podium level</li>
+                        <li class="carousel-details">Fragrance Garden</li>
+                        <li class="carousel-details">Butterfly Garden</li>
+                        <li class="carousel-details">Sunrise Garden</li>
+                        <li class="carousel-details">Lift Lobby with Raised Deck and Tree</li>
+                        <li class="carousel-details">Library</li>
+                        <li class="carousel-details">Multipurpose Court</li>
+                        <li class="carousel-details">Amphi Theater</li>
+                        <li class="carousel-details">Raised Planter Box with Seater</li>
+                        <li class="carousel-details">Entrance Plaza with special paving and feature trees</li>
+                </div>
+
+                <div class="carousel-descrip_tb" style="display: none;" id="car2_b">
+                    <p class="carousel-title">
+                        The Best Classroom Is Roofed Only By The Sky
+                    </p>
+                        <li class="carousel-details">Cricket Net Practice Court</li>
+                        <li class="carousel-details">Kids Play Area</li>
+                        <li class="carousel-details">Skating Rink</li>
+                        <li class="carousel-details">Play Lawn</li>
+                        <li class="carousel-details">Toddlers play area</li>
+                        <li class="carousel-details">Hobby Space</li>
+                        <li class="carousel-details">Indoor Games Area</li>
+                        <li class="carousel-details">Play Lawn</li>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+    <!-- #################################################################################### -->
+    <div class="gallery" id="gallery">
+        <div class="gallery-nav content-desktop">
+            <div class="gal content-desktop" data-aos="fade-up" data-aos-delay="200">Gallery</div>
+            <div class="gal-nav active-gal content-desktop" onclick="iFunc()" id="photos" data-aos="fade-up" data-aos-delay="350">Photos</div>
+            <div class="gal-nav content-desktop" onclick="vFunc()" id="walkthrough" data-aos="fade-up" data-aos-delay="500">Walkthrough</div>
+        </div>
+        
+        <div class="gal content-mobile" data-aos="fade-up" data-aos-delay="200">Gallery</div>
+        <div class="gallery-nav content-mobile" data-aos="fade-up" data-aos-delay="300">
+            <div class="gal-nav active-gal content-mobile" onclick="iMFunc()" id="photosM">Photos</div>
+            <div class="gal-nav content-mobile" onclick="vMFunc()" id="walkthroughM">Walkthrough</div>
+        </div>
+
+        <div class="gallery-view" data-aos="fade-up" data-aos-delay="600">
+            <iframe class="gal-img" style="display: none;" id="gal-V" src="https://www.youtube.com/embed/gnW_MOJ6rvI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="gal-img" style="display: block; overflow-x: hidden; cursor: pointer;" id="gal-I">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="images/gallery/gal1.jpg">  
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/gallery/gal2.png">  
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/gallery/gal3.jpg">  
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/gallery/gal4.jpg">  
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/gallery/gal5.jpg">  
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/gallery/gal6.png">  
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/gallery/gal7.png">  
+                    </div>
+                </div>
+                <div class="fillet-box">
+                    <div class="left-box">
+                        <a><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="right-box">
+                        <a><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function vFunc() {
+            var a = document.getElementById('gal-V');
+            var b = document.getElementById('gal-I');
+            var c = document.getElementById('walkthrough');
+            var d = document.getElementById('photos');
+            if (a.style.display === 'none') {
+                a.style.display = 'block';
+                b.style.display = 'none';
+                c.classList.add('active-gal');
+                d.classList.remove('active-gal');
+            }
+        }
+
+        function vMFunc() {
+            var a = document.getElementById('gal-V');
+            var b = document.getElementById('gal-I');
+            var c = document.getElementById('walkthroughM');
+            var d = document.getElementById('photosM');
+            if (a.style.display === 'none') {
+                a.style.display = 'block';
+                b.style.display = 'none';
+                c.classList.add('active-gal');
+                d.classList.remove('active-gal');
+            }
+        }
+
+        function iFunc() {
+            var a = document.getElementById('gal-V');
+            var b = document.getElementById('gal-I');
+            var c = document.getElementById('walkthrough');
+            var d = document.getElementById('photos');
+            if (b.style.display === 'none') {
+                a.style.display = 'none';
+                b.style.display = 'block';
+                c.classList.remove('active-gal');
+                d.classList.add('active-gal');
+            }
+        }
+
+        function iMFunc() {
+            var a = document.getElementById('gal-V');
+            var b = document.getElementById('gal-I');
+            var c = document.getElementById('walkthroughM');
+            var d = document.getElementById('photosM');
+            if (b.style.display === 'none') {
+                a.style.display = 'none';
+                b.style.display = 'block';
+                c.classList.remove('active-gal');
+                d.classList.add('active-gal');
+            }
+        }
+    </script>
+
+    <!-- #################################################################################### -->
+    <div class="specBrand content-desktop">
+        <p data-aos="fade-up" data-aos-delay="200">SPECIFICATIONS & BRANDS</p>
+        <div class="btnFlex" data-aos="fade-up" data-aos-delay="350">
+            <div class="buttn">
+                <a class="black-button" type="submit">KNOW MORE</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="specBrand content-mobile">
+        <p data-aos="fade-up" data-aos-delay="200">SPECIFICATIONS & BRANDS</p>
+        <div class="buttn" data-aos="fade-up" data-aos-delay="300">
+            <a class="black-button" type="submit">KNOW MORE</a>
+        </div>
+    </div>
+
+    <!-- #################################################################################### -->
+    <!-- Location Section Starts-->
+    <div class="location-section">
+        <p class="location-title" data-aos="fade-up" data-aos-delay="200">
+            A perfect location for a perfect home
+        </p>
+        <p class="location-subtitle" data-aos="fade-up" data-aos-delay="250">
+            Somepura Gate, Sarjapur Road, located in south-east Bangalore, is one of the fastest-growing parts of the city which makes it perfect & favoured property investment destinations. Despite it's close proximity to the IT hubs of the city it still retains the peaceful & serene aspect missing from almost every other part of the city which certainly are heading towards saturation.
+        </p><br>
+        <p class="location-subtitle" data-aos="fade-up" data-aos-delay="300">
+            The real estate demand in this location has seen a ten folds increase. Sarjapur Road enjoys robust residential demand and excellent connectivity to the IT hubs & hotspots like Koramangala, Whitefield, HSR, Electronic City, Marathahalli, Silk Board etc. The planned Metro rail extension, Outer Ring Road and the proposed eight-lane Peripheral Ring Road [PRR] which will reduce the travel time to airport considerably are expected to boost the realty sector here.
+        </p>
+        <div class="location-descrip">
+            <div class="location-img" id="mapImg" data-aos="fade-up" data-aos-delay="350">
+                <img src="images/Map.png">   
+                <p onclick="mapFunc()">View Map</p>      
+            </div>
+            <iframe class="location-img" id="map" style="display: none; border: 1px solid black;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.9256920171847!2d77.6770247146445!3d12.912497390894686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae135d95d42c11%3A0xc20268292891ba2c!2sSoulTree%20by%20ModernSpaaces!5e0!3m2!1sen!2sin!4v1603023796674!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>   
+            <div class="location-distance">
+                <ul>
+                    <li data-aos="fade-up" data-aos-delay="350">
+                        <p class="place">Dommasandra circle</p>
+                        <p class="kms">4 KMS</p>
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="350">
+                        <p class="place">Decatalon/ RGA Tech Park</p>
+                        <p class="kms">9 KMS</p>
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="400">
+                        <p class="place">Electronic City</p>
+                        <p class="kms">14 KMS</p>
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="400">
+                        <p class="place">Eco Space</p>
+                        <p class="kms">15 KMS</p>
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="450">
+                        <p class="place">Wipro Corporate Office</p>
+                        <p class="kms">13 KMS</p>
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="450">
+                        <p class="place">Total Mall</p>
+                        <p class="kms">14 KMS</p>
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="500">
+                        <p class="place">HSR Layout</p>
+                        <p class="kms">17 KMS</p>
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="500">
+                        <p class="place">Marathahalli</p>
+                        <p class="kms">19 KMS</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Location Section Ends-->
+
+    
+
+    <script>
+        var m = document.getElementById('map');
+        var p = document.getElementById('mapM');
+        var n = document.getElementById('mapImg')
+        function mapFunc() {
+            if (m.style.display === 'none') {
+                m.style.display = 'block';
+                n.style.display = 'none';
+            }
+        }
+
+        function mapMFunc() {
+            if (p.style.display === 'none') {
+                p.style.display = 'block';
+                p.style.display = 'none';
+            }
+        }
+    </script>
+
+    <!-- #################################################################################### -->
+    <!-- <div class="otherProjects" style="display: none;">
+        <p class="otherProjects-title">
+            Other Projects
+        </p>
+        <div class="otherProjects-Content">
+            <div class="proj-img">
+                <img src="images/ban/ban-1.jpg"
+                srcset="images/ban/ban-1@2x.jpg 2x,
+                images/ban/ban-1@3x.jpg 3x"> 
+            </div>
+            <div class="baseline-bttn">
+                <div class="buttn">
+                    <button class="black-button" type="submit">KNOW MORE</button>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- #################################################################################### -->
+    <div class="contact content-desktop" id="contact">
+        <p class="contact-title" data-aos="fade-up" data-aos-delay="200">
+            We’d love to hear from you!
+        </p>
+        <p class="contact-subtitle" data-aos="fade-up" data-aos-delay="250">
+            We’re here answer queries and to guide and provide you with information you need in choosing the perfect
+        </p>
+        <form action="">
+            <div class="inputA">
+                <input class="flex-input" type="text" placeholder="Name" maxlength="20" data-aos="fade-up" data-aos-delay="300">
+                <input class="flex-input" type="text" placeholder="Phone Number*" pattern="[0-9]{10}" data-aos="fade-up" data-aos-delay="300">
+            </div>
+            <div class="inputB">
+                <input type="email" name="email" placeholder="Email ID" data-aos="fade-up" data-aos-delay="350">
+                <input type="text" placeholder="What would you like to discuss?" maxlength="20" data-aos="fade-up" data-aos-delay="400">
+            </div>
+            <div  data-aos="fade-up" data-aos-delay="400">
+                <div class="buttn">
+                    <a class="black-button" type="submit">SUBMIT</a>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="contact content-mobile">
+        <p class="contact-title" data-aos="fade-up" data-aos-delay="200">
+            We’d love to hear from you!
+        </p>
+        <p class="contact-subtitle" data-aos="fade-up" data-aos-delay="250">
+            We’re here answer queries and to guide and provide you with information you need in choosing the perfect
+        </p>
+        <div class="inputA">
+            <input class="flex-input" type="text" placeholder="Name" maxlength="20" data-aos="fade-up" data-aos-delay="300">
+            <input class="flex-input" type="text" placeholder="Phone Number*" pattern="[0-9]{10}" data-aos="fade-up" data-aos-delay="350">
+        </div>
+        <div class="inputB">
+            <input type="email" name="email" placeholder="Email ID" data-aos="fade-up" data-aos-delay="400">
+            <input type="text" placeholder="What would you like to discuss?" maxlength="20" data-aos="fade-up" data-aos-delay="450">
+        </div>
+        <div class="buttn" data-aos="fade-up" data-aos-delay="500">
+            <a class="black-button" type="submit">SUBMIT</a>
+        </div>
+    </div>
+
+    <!-- #################################################################################### -->
+    <!-- Schedule Section Starts -->
+    <!-- <Section class="schedule content-desktop" hidden>
+        <div class="schedule-visit" data-aos="fade" data-aos-delay="200">
+            <p>
+                We’re here to answer queries, and to guide and provide you with the information
+                you need in choosing the perfect home.
+            </p>
+            <div class="bttn">
+                <button>SCHEDULE A VISIT</button>
+            </div>
+        </div>
+    </Section>
+
+    <Section class="schedule content-mobile" hidden>
+        <div class="schedule-visit" data-aos="fade" data-aos-delay="200">
+            <p>
+                We’re here to answer queries, and to guide and provide you with the information
+                you need in choosing the perfect home.
+            </p>
+            <div class="bttn">
+                <button>SCHEDULE A VISIT</button>
+            </div>
+        </div>
+    </Section> -->
+    <!-- Schedule Section Ends -->
+
+    <!-- #################################################################################### -->
+    <!-- Footer Starts [Desktop]-->
+    <section class="footer content-desktop" id="footer">
+        <div class="footer-main">
+            <h1 class="footer-title" data-aos="fade-up" data-aos-delay="100">New Age<br>
+                of Smart Homes
+            </h1>
+            <ul class="footer-nav-items">
+                <li data-aos="fade-up" data-aos-delay="200"><a href="#aboutUs">Explore Soultree</a></li>
+                <li data-aos="fade-up" data-aos-delay="250"><a href="#projects">Master Plan</a></li>
+                <li data-aos="fade-up" data-aos-delay="300"><a href="#residential">Gallery</a></li>
+                <li data-aos="fade-up" data-aos-delay="350"><a href="#decor">Amenities</a></li>
+                <li data-aos="fade-up" data-aos-delay="450"><a href="#contactUs">Contact</a></li>
+                <li data-aos="fade-up" data-aos-delay="500" class="vertical-line"></li>
+            </ul>
+        </div>
+
+        <div class="copyright">
+            <p class="copyright-2019">&copy Copyright | Modern Spaaces 2019. All Right Reserved</p>
+            <p class="policy">Privacy Policy</p>
+            <p class="disclaimer">Disclaimer</p>
+        </div>
+    </section>
+    <!-- Footer Ends [Desktop]-->
+
+    <!-- Footer Starts [Mobile]-->
+    <section class="footer content-mobile" data-snap-point id="footer">
+        <div class="footer-main">
+            <h1 class="footer-title" data-aos="fade-up" data-aos-delay="100">New Age<br>
+                of Smart Homes
+            </h1>
+            <ul class="footer-nav-items">
+                <li data-aos="fade-up" data-aos-delay="200"><a href="#aboutUs">Explore Soultree</a></li>
+                <li data-aos="fade-up" data-aos-delay="250"><a href="#projects">Master Plan</a></li>
+                <li data-aos="fade-up" data-aos-delay="300"><a href="#residential">Gallery</a></li>
+                <li data-aos="fade-up" data-aos-delay="350"><a href="#decor">Amenities</a></li>
+                <li data-aos="fade-up" data-aos-delay="450"><a href="#contactUs">Contact</a></li>
+                <li data-aos="fade-up" data-aos-delay="500" class="vertical-line"></li>
+            </ul>
+        </div>
+
+        <div class="copyright">
+            <div class="tAndC">
+                <p class="policy">Privacy Policy</p>
+                <p class="disclaimer">Disclaimer</p>
+            </div>
+            <p class="copyright-2019">&copy Copyright | Modern Spaaces 2019. All Right Reserved</p>
+        </div>
+    </section>
+    <!-- Footer Ends [Mobile]-->
+
+    
+    <!-- #################################################################################### -->
+
+    <!-- bootstrap modal -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
+
+    <!-- Script Links -->
+    <script src="js/app.js"></script>
+    <!-- <script src="js/lottie.min.js"></script> -->
+
+    <!-- AOS(Animation On Scroll) -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- Swiper Js -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
+
+    <!-- GSAP Landing Section Animation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/ScrollTrigger.min.js"></script>
+
+    <script>
+        gsap.timeline(".welcome h1", {
+            ScrollTrigger: ".welcome h1",
+            x: 150,
+            duration: 1
+        });
+
+
+        TweenMax.from('.logo', 1, {
+        delay: 0.2,
+        opacity: 0,
+        y: 20,
+        ease: Expo.easeInOut
+        })
+
+        TweenMax.staggerFrom('.social-icons ul li .fa-facebook-f', 1, {
+        delay: 0.3,
+        opacity: 0,
+        y: 20,
+        ease: Expo.easeInOut
+        },)
+
+        TweenMax.staggerFrom('.social-icons ul li .fa-instagram', 1, {
+        delay: 0.35,
+        opacity: 0,
+        y: 20,
+        ease: Expo.easeInOut
+        },)
+
+        TweenMax.staggerFrom('.social-icons ul li .fa-linkedin-in', 1, {
+        delay: 0.4,
+        opacity: 0,
+        y: 20,
+        ease: Expo.easeInOut
+        },)
+
+        TweenMax.staggerFrom('.social-icons ul li .fa-twitter', 1, {
+        delay: 0.45,
+        opacity: 0,
+        y: 20,
+        ease: Expo.easeInOut
+        },)
+
+        TweenMax.from('.box', 1, {
+        y: 20,
+        delay: 0.4,
+        opacity: 0,
+        ease: Expo.easeInOut
+        });
+
+        TweenMax.from('#Exp-explore', 1, {
+        y: 20,
+        delay: 0.5,
+        opacity: 0,
+        ease: Expo.easeInOut
+        });
+
+        TweenMax.from('#Mplan', 1, {
+        y: 20,
+        delay: 0.6,
+        opacity: 0,
+        ease: Expo.easeInOut
+        });
+
+        TweenMax.from('#Gall-gallery', 1, {
+        y: 20,
+        delay: 0.7,
+        opacity: 0,
+        ease: Expo.easeInOut
+        });
+
+        TweenMax.from('#Amne', 1, {
+        y: 20,
+        delay: 0.8,
+        opacity: 0,
+        ease: Expo.easeInOut
+        });
+
+        TweenMax.from('#Cont', 1, {
+        y: 20,
+        delay: 0.9,
+        opacity: 0,
+        ease: Expo.easeInOut
+        });
+
+        TweenMax.from('.call, .num',  1, {
+        y: 20,
+        delay: 1,
+        opacity: 0,
+        ease: Expo.easeInOut
+        });
+
+        TweenMax.from('.numM',  1, {
+        y: 20,
+        delay: 1,
+        opacity: 0,
+        ease: Expo.easeInOut
+        });
+
+        TweenMax.from('.dropbtn', 1, {
+        y: 20,
+        delay: 1.1,
+        opacity: 0,
+        ease: Expo.easeInOut
+        });
+    </script>
+
+
+
+
+    <script>
+            var mySwiperS = new Swiper('.swiper-containerSerenity', {
+            navigation: {
+                nextEl: '#erSerenity',
+                prevEl: '#elSerenity',
+            },
+            })
+</script>
+<script>
+            var mySwiper_1 = new Swiper('.swiper-containerBliss', {
+            navigation: {
+                nextEl: '#erBliss',
+                prevEl: '#elBliss',
+
+                pagination: {
+                    el: '.swiper-pagination',
+                },
+            },
+            })
+</script>
+<script>
+            var mySwiper_2 = new Swiper('.swiper-containerNirvana', {
+            navigation: {
+                nextEl: '#erNirvana',
+                prevEl: '#elNirvana',
+            },
+            })
+</script>
+<script>
+            //#################################################
+            var mySwiper = new Swiper('.gal-img', {
+            // direction: 'vertical',
+            // loop: true,
+            // slidesPerView: 1,
+
+            navigation: {
+                nextEl: '.right-box',
+                prevEl: '.left-box',
+            },
+        })
+    </script>
+
+
+
+
+    <script>
+        var idtemp = -2;
+        function fn(id) 
+            {
+                image_fn(idtemp)
+                if (idtemp == 2) {
+                    idtemp = -2;
+                } else {
+                    idtemp = idtemp + 1;
+                }
+                var id_1 = idtemp;
+                var id_1 = "car"+idtemp;
+                var i, tabcontent, tablinks;
+                tabcontent = document.getElementsByClassName("carousel-descrip_t");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
+               
+                document.getElementById(id_1).style.display = "block";
+                // evt.currentTarget.className += " active";
+            }
+
+
+            const state = {};
+        const carouselList = document.querySelector('.carousel__list');
+        const carouselItems = document.querySelectorAll('.carousel__item');
+        const elems = Array.from(carouselItems);
+
+        var temp_var = 0
+
+        function image_fn(idtemp){
+            // var newActive = event.target;
+            // var isItem = newActive.closest('.carousel__item');
+            if (temp_var == 5) {
+                temp_var = 0 
+            } else {
+                temp_var = temp_var + 1
+            }
+            var newActive = temp_var
+
+            // if (!isItem || newActive.classList.contains('carousel__item_active')) {
+            //     return;
+            // };
+        
+            update(newActive);
+        };
+
+        var ite_tear = NaN;
+
+        carouselList.addEventListener('click', function (event) {
+            var newActive = event.target;
+            var isItem = newActive.closest('.carousel__item');
+
+            if (!isItem || newActive.classList.contains('carousel__item_active')) {
+                return;
+            };
+            ite_tear = newActive
+        
+            update(newActive);
+            // console.log(newActive)
+        });
+
+        const update = function(newActive) {
+        // const newActivePos = newActive.dataset.pos;
+        const newActivePos = 1;
+        // console.log(newActivePos)
+
+        const current = elems.find((elem) => elem.dataset.pos == -2);
+        const prev = elems.find((elem) => elem.dataset.pos == -1);
+        const next = elems.find((elem) => elem.dataset.pos == 0);
+        const first = elems.find((elem) => elem.dataset.pos == 1);
+        const last = elems.find((elem) => elem.dataset.pos == 2);
+
+        console.log(current,prev)
+        
+        current.classList.remove('carousel__item_active');
+        
+        [current, prev, next, first, last].forEach(item => {
+            var itemPos = item.dataset.pos;
+
+            item.dataset.pos = getPos(itemPos, newActivePos)
+        });
+        };
+
+        const getPos = function (current, active) {
+        const diff = current - active;
+
+        if (Math.abs(current - active) > 2) {
+            return -current
+        }
+
+        return diff;
+        }
+</script>
+
+
+<!-- ################################################# -->
+<script>
+
+        var idtemp1 = -2;
+function fn_arrow(id) 
+    {
+        image_fn_arrow(idtemp1)
+        if (idtemp1 == 2) {
+            idtemp1 = -2;
+        } else {
+            idtemp1 = idtemp1 + 1;
+        }
+        var id_1 = idtemp1+"_a";
+      
+        var id_1 = "car"+id_1;
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("carousel-descrip_t1");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+       
+        document.getElementById(id_1).style.display = "block";
+        // evt.currentTarget.className += " active";
+    }
+
+
+    const state_arrow = {};
+const carouselList_arrow = document.querySelector('.carousel_list');
+const carouselItems_arrow = document.querySelectorAll('.carousel_item1');
+const elems_arrow = Array.from(carouselItems_arrow);
+
+var temp_var_arrow = 0
+
+function image_fn_arrow(idtemp1){
+    // var newActive_arrow = event.target;
+    // var isItem_arrow = newActive_arrow.closest('.carousel__item');
+    if (temp_var_arrow == 5) {
+        temp_var_arrow = 0 
+    } else {
+        temp_var_arrow = temp_var_arrow + 1
+    }
+    var newActive_arrow = temp_var_arrow
+
+    // if (!isItem || newActive_arrow.classList.contains('carousel__item_active')) {
+    //     return;
+    // };
+
+    update_arrow(newActive_arrow);
+};
+
+var ite_tear_arrow = NaN;
+
+carouselList_arrow.addEventListener('click', function (event) {
+    var newActive_arrow = event.target;
+    var isItem_arrow = newActive_arrow.closest('.carousel_item1');
+
+    if (!isItem_arrow || newActive_arrow.classList.contains('carousel_item1_active')) {
+        return;
+    };
+    ite_tear_arrow = newActive_arrow
+
+    update(newActive_arrow);
+    // console.log(newActive_arrow)
+});
+
+const update_arrow = function(newActive_arrow) {
+// const newActivePos_arrow = newActive_arrow.dataset.pos;
+const newActivePos_arrow = 1;
+// console.log(newActivePos_arrow)
+
+const current_arrow = elems_arrow.find((elem) => elem.dataset.pos == -2);
+const prev_arrow = elems_arrow.find((elem) => elem.dataset.pos == -1);
+const next_arrow = elems_arrow.find((elem) => elem.dataset.pos == 0);
+const first_arrow = elems_arrow.find((elem) => elem.dataset.pos == 1);
+const last_arrow = elems_arrow.find((elem) => elem.dataset.pos == 2);
+
+console.log(current_arrow,prev_arrow)
+
+current_arrow.classList.remove('carousel_item1_active');
+
+[current_arrow, prev_arrow, next_arrow, first_arrow, last_arrow].forEach(item => {
+    var itemPos_arrow = item.dataset.pos;
+
+    item.dataset.pos = getPos(itemPos_arrow, newActivePos_arrow)
+});
+};
+
+const getPos_arrow = function (current_arrow, active_arrow) {
+const diff_arrow = current_arrow - active_arrow;
+
+if (Math.abs(current_arrow - active_arrow) > 2) {
+    return -current_arrow
+}
+
+return diff_arrow;
+}
+</script>
+
+<!-- ################################################# -->
+<script>
+    var idtemp1_arrow11 = -2;
+function fn_arrow1(id) 
+    {
+        image_fn_arrow1(idtemp1_arrow11)
+        if (idtemp1_arrow11 == 2) {
+            idtemp1_arrow11 = -2;
+        } else {
+            idtemp1_arrow11 = idtemp1_arrow11 + 1;
+        }
+        var id_1 = idtemp1_arrow11+"_b";
+      
+        var id_1 = "car"+id_1;
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("carousel-descrip_tb");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+       
+        document.getElementById(id_1).style.display = "block";
+        // evt.currentTarget.className += " active";
+    }
+
+
+    const state_arrow1 = {};
+const carouselList_arrow1 = document.querySelector('.carousel_list2');
+const carouselItems_arrow1 = document.querySelectorAll('.carousel_item2');
+const elems_arrow1 = Array.from(carouselItems_arrow1);
+
+var temp_var_arrow1 = 0
+
+function image_fn_arrow1(idtemp1_arrow11){
+    // var newActive_arrow1 = event.target;
+    // var isItem_arrow1 = newActive_arrow1.closest('.carousel__item');
+    if (temp_var_arrow1 == 5) {
+        temp_var_arrow1 = 0 
+    } else {
+        temp_var_arrow1 = temp_var_arrow1 + 1
+    }
+    var newActive_arrow1 = temp_var_arrow1
+
+    // if (!isItem || newActive_arrow1.classList.contains('carousel__item_active')) {
+    //     return;
+    // };
+
+    update_arrow1(newActive_arrow1);
+};
+
+var ite_tear_arrow1 = NaN;
+
+carouselList_arrow1.addEventListener('click', function (event) {
+    var newActive_arrow1 = event.target;
+    var isItem_arrow1 = newActive_arrow1.closest('.carousel_item2');
+
+    if (!isItem_arrow1 || newActive_arrow1.classList.contains('carousel_item2_active')) {
+        return;
+    };
+    ite_tear_arrow1 = newActive_arrow1
+
+    update(newActive_arrow1);
+    // console.log(newActive_arrow1)
+});
+
+const update_arrow1 = function(newActive_arrow1) {
+// const newActivePos_arrow1 = newActive_arrow1.dataset.pos;
+const newActivePos_arrow1 = 1;
+// console.log(newActivePos_arrow1)
+
+const current_arrow1 = elems_arrow1.find((elem) => elem.dataset.pos == -2);
+const prev_arrow1 = elems_arrow1.find((elem) => elem.dataset.pos == -1);
+const next_arrow1 = elems_arrow1.find((elem) => elem.dataset.pos == 0);
+const first_arrow1 = elems_arrow1.find((elem) => elem.dataset.pos == 1);
+const last_arrow1 = elems_arrow1.find((elem) => elem.dataset.pos == 2);
+
+console.log(current_arrow1,prev_arrow1)
+
+current_arrow1.classList.remove('carousel_item2_active');
+
+[current_arrow1, prev_arrow1, next_arrow1, first_arrow1, last_arrow1].forEach(item => {
+    var itemPos_arrow1 = item.dataset.pos;
+
+    item.dataset.pos = getPos(itemPos_arrow1, newActivePos_arrow1)
+});
+};
+
+const getPos_arrow1 = function (current_arrow1, active_arrow1) {
+const diff_arrow1 = current_arrow1 - active_arrow1;
+
+if (Math.abs(current_arrow1 - active_arrow1) > 2) {
+    return -current_arrow1
+}
+
+return diff_arrow1;
+}
+
+</script>
+
+
+<!-- Smooth Scroll -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+$("a[href^='#']").click(function(e) {
+	e.preventDefault();
+	
+    var position = $($(this).attr("href")).offset().top;
+
+	$("body, html").animate({
+		scrollTop: position
+	} /* speed */ );
+});
+
+</script>
+
+
+
+
+    <script>  
+        var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+         var element = document.getElementById('text');
+         if (isMobile) {
+				
+            var mySwiper = new Swiper('.swiper-container2', {
+            slidesPerView: 'auto',
+            spaceBetween: 2,
+            centeredSlides: true,
+
+            navigation: {
+            nextEl: '.right2',
+            prevEl: '.left2',
+            },
+        })
+         } else {
+            var mySwiper = new Swiper('.swiper-container2', {
+            slidesPerView: 2,
+            spaceBetween: 70,
+
+            navigation: {
+            nextEl: '.right2',
+            prevEl: '.left2',
+            },
+        })
+         }
+    </script>
+    
+    <script>
+        AOS.init({
+        easing: 'ease',
+        duration: 500,
+        once: false
+    })
+    </script>
+
+</body>
+</html>
+
