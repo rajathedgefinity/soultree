@@ -1725,10 +1725,11 @@ body {
 
 .carousel-2 .color-splash-2 {
   position: absolute;
-  width: 45.26vw;
+  width: 48vw;
   height: 47.19vw;
   margin-top: -3vw;
   margin-left: 52vw;
+  overflow: hidden;
 }
 
 .carousel-2 .color-splash-2 img {
@@ -1737,6 +1738,9 @@ body {
 }
 
 .carousel-2 .carousel-flex {
+  overflow: hidden;
+  width: 100%;
+  height: 50vw;
   z-index: 1;
   position: relative;
   display: -webkit-box;
@@ -1746,12 +1750,12 @@ body {
       -ms-flex-align: center;
           align-items: center;
   margin-left: 14.9vw;
-  margin-top: -3vw;
+  margin-top: -10vw;
 }
 
 .carousel-2 .carousel-flex .carousel {
   position: absolute;
-  margin-left: 43.5vw;
+  margin-left: 18.7vw;
   -webkit-box-ordinal-group: 4;
       -ms-flex-order: 3;
           order: 3;
@@ -1924,7 +1928,7 @@ body {
           box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   background-color: #ffffff;
   z-index: 10;
-  margin-top: 15.5vw;
+  margin-top: 14vw;
   margin-left: 3vw;
   color: #000000;
   border: none;
@@ -2417,7 +2421,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   padding-left: 13.91vw;
-  margin-top: 12vw;
+  margin-top: 6vw;
 }
 
 .master-plan .master-plan-img {
@@ -4640,7 +4644,7 @@ body {
     padding-top: 14vw;
     padding-bottom: 18vw;
     margin-bottom: 10vw;
-    height: 170vw;
+    height: 183vw;
     font-family: Titillium Web, sans-serif;
     background-color: #e8e3db;
     z-index: 200;
