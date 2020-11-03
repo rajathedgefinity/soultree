@@ -25,6 +25,7 @@
 
     <!-- Hamburger Animation -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script src="js/floorplans.js"></script> -->
 
     <!-- Swiperjs CDN Links -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
@@ -476,30 +477,28 @@
                         <div class="type-selection">
                             <p data-aos="fade-up" data-aos-delay="650">BHK</p>
                             <div class="click-btn" id="click-btn" data-aos="fade-up" data-aos-delay="700">
-                                <button class="click-btn-1">1</button>
-                                <button class="click-btn-1">2</button>
-                                <button class="click-btn-1 active">3</button>
+                                <button id="serenity1BHK" class="click-btn-1" onclick="serenityFloorFunction(this, id)">1</button>
+                                <button id="serenity2BHK" class="click-btn-1" onclick="serenityFloorFunction(this, id)">2</button>
+                                <button id="serenity3BHK" class="click-btn-1" onclick="serenityFloorFunction(this, id)">3</button>
                             </div>
                         </div>
                 
                         <div class="facing">
                             <p data-aos="fade-up" data-aos-delay="750">Facing</p>
-                            <div class="box11" data-aos="fade-up" data-aos-delay="800">
-                                <select>
-                                    <option>East</option>
-                                    <option>West</option>
-                                    <option>North</option>
-                                    <option>South</option>
+                            <div id="serenityFacing" onChange="serenityFaceFunction(this)" class="box11" data-aos="fade-up" data-aos-delay="800">
+                                <select id="serenitySelectFacing">
+                                    <option value='east'>East</option>
+                                    <option value='west'>West</option>
+                                    <option value='north'>North</option>
                                 </select>
                             </div>
                         </div>
                         <div class="building-blocks">
-                            <p data-aos="fade-up" data-aos-delay="850">Block</p>
-                            <div class="box11" data-aos="fade-up" data-aos-delay="900">
-                                <select>
-                                    <option>B</option>
-                                    <option>C</option>
-                                    <option>D</option>
+                            <p data-aos="fade-up" data-aos-delay="850">Unit</p>
+                            <div id="serenityBlock" onChange="serenityBlockFunction(this)" class="box11" data-aos="fade-up" data-aos-delay="900">
+                                <select id="serenitySelectBlock">
+                                    <option value="Typical Unit">Typical Unit</option>
+                                    <option value="Corner Unit">Corner Unit</option>
                                 </select>
                             </div>
                         </div>
@@ -1759,6 +1758,7 @@ $("a[href^='#']").click(function(e) {
         once: false
     })
     </script>
+    <script src="js/floorplans.js"></script>
 
 </body>
 </html>
